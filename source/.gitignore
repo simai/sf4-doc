@@ -2,8 +2,7 @@
 /node_modules/
 /vendor/
 /source/assets/build/
-/composer.json
-/bootstrap.php
+.bootstrap.php
 .cache
 .idea
 yarn.lock
