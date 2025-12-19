@@ -43,7 +43,7 @@ jobs:
 
             php vendor/bin/docara build production
 
-            rsync -av --delete $PWD/build_production/ /var/www/dev/data/www/doc.sf4.simai.pro
+            rsync -av --delete $PWD/git/sf4-doc/build_production/ /var/www/dev/data/www/doc.sf4.simai.pro
           "'
         env:
           SSH_USER: ${{ vars.SSH_USER }}
