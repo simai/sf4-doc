@@ -48,4 +48,4 @@ jobs:
         env:
           SSH_USER: ${{ vars.SSH_USER }}
           SERVER: ${{ vars.SSH_SERVER }}
-          SSH_PORT: ${{ vars.SSH_PORT }}
+
