@@ -28,17 +28,12 @@ jobs:
             git clean -fd
             git pull --ff-only origin main
 
-            # Если используешь субмодули и они реально нужны:
-            git submodule update --init --recursive || true
-
             # Сборка Docara (PHP должен быть 8.2+)
             composer install --no-dev --prefer-dist --no-interaction
 
             # Важно: если init нужен каждый раз
             php vendor/bin/docara init --update
-
-            # Node/Yarn: здесь нужно, чтобы yarn был доступен в PATH этого пользователя
-            # Если yarn нет — этот шаг упадёт.
+            
             yarn prod
 
             php vendor/bin/docara build production
