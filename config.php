@@ -70,7 +70,7 @@
         'baseUrl' => '',
         'production' => false,
         'env' => getenv(),
-        'category' => true,
+        'category' => false,
         'cache' => true,
         'cachePath' => $projectRoot . '/.cache',
         'siteName' => 'SIMAI Framework 4 Documentation',
