@@ -72,6 +72,7 @@
         'env' => getenv(),
         'category' => false,
         'cache' => true,
+        'turbo' => true,
         'cachePath' => $projectRoot . '/.cache',
         'siteName' => 'SIMAI Framework 4 Documentation',
         'siteDescription' => 'SIMAI Framework 4  documentation',
