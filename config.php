@@ -73,9 +73,9 @@
         'category' => false,
         'cache' => true,
         'cachePath' => $projectRoot . '/.cache',
-        'siteName' => 'Simai Documentation',
-        'siteDescription' => 'Simai framework documentation',
-        'github' => 'https://github.com/simai/docara/',
+        'siteName' => 'SIMAI Framework 4 Documentation',
+        'siteDescription' => 'SIMAI Framework 4  documentation',
+        'github' => 'https://github.com/simai/sf4-doc/',
         'locales' => [
             'ru' => 'Русский',
         ],

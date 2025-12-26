@@ -4,7 +4,6 @@
         'showInMenu' => false,
         'order' => 1,
         'menu' => [
-            'simai-framework-4-backend' => 'SIMAI Framework 4 (backend)',
             'vvedenie' => 'Введение',
             'trebovaniya-i-ustanovka' => 'Требования и установка',
             'bystryj-start-razrabotki' => 'Быстрый старт разработки',
