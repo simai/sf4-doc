@@ -1,0 +1,25 @@
+<?php
+    return [
+        'title' => 'Сборка интерфейса',
+        'order' => 6,
+        'menu' => [
+            'grid-sf-grid' => 'Грид (sf.grid)',
+            'fokus-glubiny-model-dannyh-view-block-i-hranenie-parametry-komponenta-patterny-imen-keshirovanie-i-obnovlenie-bez-pravok-yadra' => 'Фокус глубины: модель данных view/block и хранение, параметры компонента, паттерны имен, кэширование и обновление без правок ядра',
+            'model-stroki-kolonki-oblasti-12-kolonochnaya-setka' => 'Модель: строки/колонки/области, 12-колоночная сетка',
+            'parametry-kontejner-fon-maska-animacii-usloviya-pokaza-adaptivnost' => 'Параметры: контейнер, фон, маска, анимации, условия показа, адаптивность',
+            'vizualnoe-redaktirovanie-drag-drop-inline-nastrojki' => 'Визуальное редактирование: drag\&drop, inline настройки',
+            'primery-konfiguracij-i-svyaz-s-blokami' => 'Примеры конфигураций и связь с блоками',
+            'snippety-dlya-dokumentacii' => 'Сниппеты для документации',
+            'bloki-i-view' => 'Блоки и view',
+            'fokus-glubiny-kopirovanie-bazovogo-bloka-v-simai-data-shablony-template-php-parameters-php-description-php-assety-i-lokalizaciya-bloka-svyaz-s-view-chek-list-override-bez-pravok-simai' => 'Фокус глубины: копирование базового блока в `simai.data`, шаблоны `template.php/.parameters.php/.description.php`, ассеты и локализация блока, связь с view, чек-лист override без правок `/simai`',
+            'sistemnye-bloki-simai-i-bloki-sajta-simai-data-struktura-view-presety' => 'Системные блоки (/simai) и блоки сайта (/simai.data), структура, view-пресеты',
+            'primer-struktura-bloka-i-kak-u-nego-obyavlyayutsya-parametry' => 'Пример: структура блока и как у него объявляются параметры',
+            'primer-kak-view-vybiraet-area-shablony-i-prokidyvaet-parametry-usloviya' => 'Пример: как view выбирает area-шаблоны и прокидывает параметры/условия',
+            'chek-list-bezopasnoe-pereopredelenie-bloka-bez-pravok-yadra' => 'Чек-лист: безопасное переопределение блока без правок ядра',
+            'registraciya-sozdanie-bloka-shablon-parametry-resursy' => 'Регистрация/создание блока (шаблон, параметры, ресурсы)',
+            'redaktor-bloka-inline-pravka-vklyuchenie-vyklyuchenie' => 'Редактор блока, inline-правка, включение/выключение',
+            'vizualnoe-redaktirovanie-drag-drop-inline-nastrojki-2' => 'Визуальное редактирование: drag\&drop, inline настройки',
+            'katalog-blokov-i-annotacii' => 'Каталог блоков и аннотации',
+            'primery-snippety-iz-content-json' => 'Примеры/сниппеты из content.json',
+        ],
+    ];
