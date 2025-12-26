@@ -32,7 +32,7 @@ jobs:
             composer install --no-dev --prefer-dist --no-interaction
 
             # Важно: если init нужен каждый раз
-            php vendor/bin/docara init --update
+            php vendor/bin/docara init --update --force-core-files
             
             yarn prod
 
