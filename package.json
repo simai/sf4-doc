@@ -20,6 +20,7 @@
     "fast-glob": "^3.2.12",
     "highlight.js": "^10.5.0",
     "laravel-mix": "^6.0.39",
+    "@fontsource-variable/inter": "^5.2.8",
     "markdown-it-attrs": "^4.3.1",
     "laravel-mix-docara": "github:simai/docara-mix",
     "normalize-scss": "^8.0.0",
