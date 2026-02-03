@@ -70,7 +70,7 @@
         'baseUrl' => '',
         'production' => false,
         'env' => getenv(),
-        'category' => false,
+        'category' => true,
         'cache' => true,
         'moduleCache' => false,
         'turbo' => true,
